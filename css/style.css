@@ -18,8 +18,8 @@ main {
 }
 
 .clock {
-  width: 400px;
-  height: 400px;
+  min-width: 400px;
+  min-height: 400px;
   background-color: #b4c4d9;
   border-radius: 400px;
   border: 15px groove #0b0534;
@@ -81,7 +81,7 @@ main {
 
 .second-hand {
   width: 5px;
-  height: 130px;
+  height: 140px;
   background-color: #420404;
   position: absolute;
   border-radius: 5px;
@@ -91,7 +91,7 @@ main {
 
 .minute-hand {
   width: 7px;
-  height: 110px;
+  height: 120px;
   background-color: #040230;
   position: absolute;
   border-radius: 5px;
@@ -101,7 +101,7 @@ main {
 
 .hour-hand {
   width: 9px;
-  height: 90px;
+  height: 100px;
   background-color: #040230;
   position: absolute;
   border-radius: 9px;
@@ -110,7 +110,7 @@ main {
 }
 
 .center {
-  width: 20gpx;
+  width: 20px;
   height: 20px;
   border-radius: 20px;
   background-color: #420404;
