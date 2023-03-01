@@ -116,3 +116,9 @@ main {
   background-color: #420404;
   position: absolute;
 }
+
+@media screen and (max-width: 500px) {
+  .clock {
+    margin-left: 5%;
+  }
+}
