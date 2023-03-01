@@ -119,6 +119,33 @@ main {
 
 @media screen and (max-width: 500px) {
   .clock {
-    margin-left: 5%;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 250px;
+    border: 8px groove #0b0534;
+  }
+
+  .second-hand {
+    width: 3px;
+    height: 90px;
+    border-radius: 5px;
+  }
+
+  .minute-hand {
+    width: 4px;
+    height: 70px;
+    border-radius: 5px;
+  }
+
+  .hour-hand {
+    width: 5px;
+    height: 60px;
+    border-radius: 9px;
+  }
+
+  .center {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
   }
 }
